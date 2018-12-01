@@ -47,12 +47,12 @@ public class GameController : MonoBehaviour
 
     private void StartNewMaze()
     {
-        generator.GenerateNewMaze(13, 15, OnStartTrigger, OnGoalTrigger);
+        generator.GenerateNewMaze(17, 19, OnStartTrigger, OnGoalTrigger);
 
         float x = generator.startCol * generator.hallWidth;
         float y = 1;
         float z = generator.startRow * generator.hallWidth;
-        player.transform.position = new Vector3(x, y, z);
+        player.transform.position = new Vector3(x, 100, z);
 
         goalReached = false;
         player.enabled = true;
