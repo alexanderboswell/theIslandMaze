@@ -52,7 +52,7 @@ public class GameController : MonoBehaviour
         float x = generator.startCol * generator.hallWidth;
         float y = 1;
         float z = generator.startRow * generator.hallWidth;
-        player.transform.position = new Vector3(x, 100, z);
+        player.transform.position = new Vector3(x, y, z);
 
         goalReached = false;
         player.enabled = true;
