@@ -18,8 +18,8 @@ public class FpsMovement : MonoBehaviour
     public float speed = 6.0f;
     public float gravity = -9.8f;
 
-    public float sensitivityHor = 9.0f;
-    public float sensitivityVert = 9.0f;
+    public float sensitivityHor = 15.0f;
+    public float sensitivityVert = 15.0f;
 
     public float minimumVert = -45.0f;
     public float maximumVert = 45.0f;
