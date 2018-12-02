@@ -15,11 +15,11 @@ public class FpsMovement : MonoBehaviour
 {
     [SerializeField] private Camera headCam;
 
-    public float speed = 6.0f;
+    public float speed = 100.0f;
     public float gravity = -9.8f;
 
-    public float sensitivityHor = 15.0f;
-    public float sensitivityVert = 15.0f;
+    public float sensitivityHor = 20.0f;
+    public float sensitivityVert = 20.0f;
 
     public float minimumVert = -45.0f;
     public float maximumVert = 45.0f;
