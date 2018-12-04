@@ -17,7 +17,7 @@ public class MazeMeshGenerator
     public MazeMeshGenerator()
     {
         width = 3.75f;
-        height = 6.5f;
+        height = 6.25f;
     }
 
     public Mesh FromData(int[,] data)
