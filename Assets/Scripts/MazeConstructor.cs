@@ -69,11 +69,6 @@ public class MazeConstructor : MonoBehaviour
     public void GenerateNewMaze(int sizeRows, int sizeCols,
         TriggerEventHandler startCallback=null, TriggerEventHandler goalCallback=null)
     {
-        if (sizeRows % 2 == 0 && sizeCols % 2 == 0)
-        {
-            Debug.LogError("Odd numbers work better for dungeon size.");
-        }
-
         DisposeOldMaze();
 
         data = dataGenerator.FromDimensions(sizeRows, sizeCols);
